@@ -1,0 +1,103 @@
+@charset "utf-8";
+    *{
+margin: 0px;
+padding: 0px;
+    }
+    @import url('https://fonts.googleapis.com/css2? family= Passion+One & family= Sriracha & display=swap');
+
+    :root{
+        --fonte1:  Verdana, Geneva, Tahoma, sans-serif;
+        --fonte2:'Passion One', cursiva;
+        --fonte3:'Sriracha', cursive;
+
+    }
+
+
+
+
+
+    html body{
+        font-family: var(--fonte1);
+        min-height: 100%;
+        background-color: darkgray;   
+
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding: 50px;
+   font-variant: small-caps;
+   font-family: var(--fonte2);
+   font-size: 5vw;
+   
+}
+ header > p{
+padding-bottom: 50px;
+
+        }
+        a{
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bolder ;
+        }
+            a :hover{
+                text-decoration: underline;
+
+            }
+            footer{
+                background-color: black;
+                text-align: center;
+                padding: 15px;
+                font-size: 2vh;
+            }
+            section{
+                font-family: var(--fonte3);
+                padding-top: 10vh;
+                padding-bottom: 10vh;
+                line-height: 2em ;
+                padding-left: 25px;
+                font-size: 3.5vw;
+                
+
+            }
+            section > p {
+                padding-bottom: 1em;
+            }
+            section.imagem{
+                background-color: rgba(95, 94, 94, 0.336);
+                color: white;
+                box-shadow: inset 6px 6px 13px 0px black;
+            
+
+            }
+                section.imagem > p{
+                    width: 400px;
+                    background-color: rgba(109, 108, 108, 0.377)
+                    ;
+                    background-attachment: fixed;
+                    
+                }
+                section#img01{
+                    background-image: url(../imagens/imagem2.jpg);
+                    background-position: right center;
+                    background-size: 757px 659px;
+                    background-size: cover;
+                    background-position: left center;
+                    background-attachment: fixed;
+                }
+                section#img02{
+                    background-image: url(../imagens/imagem3.jpg);
+                    background-position: right center;
+                    background-size: 757px 659px;
+                    background-size: cover;
+                    background-position: left center;
+                    background-attachment: fixed;
+                }
+
+            section.normal{
+                background-color: white;
+                color: black;
+            }
